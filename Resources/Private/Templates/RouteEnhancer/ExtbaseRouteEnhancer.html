@@ -1,0 +1,22 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default"/>
+
+<f:section name="content">
+    <div class="container">
+        <h1>Extbase route enhancer output</h1>
+        <f:if condition="{entry}">
+            <f:then>
+                <p>Entry with title "{entry.title}" was detected.</p>
+            </f:then>
+            <f:else>
+                <p>No specific entry was detect. Here is a list of all available entries:</p>
+                <ul>
+                    <f:for each="{entries}" as="entry">
+                        <li>{entry.title}</li>
+                    </f:for>
+                </ul>
+            </f:else>
+        </f:if>
+    </div>
+</f:section>
+</html>

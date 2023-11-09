@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:route_enhancers/Resources/Private/Language/locallang_db" date="2023-05-19T13:34:38Z" product-name="route_enhancers">
+		<header/>
+		<body>
+			<trans-unit id="plugin_routeenhancer_simple.name" resname="plugin_routeenhancer_simple.name">
+				<source>SimpleRouteEnhancer</source>
+			</trans-unit>
+			<trans-unit id="plugin_routeenhancer_simple.description" resname="plugin_routeenhancer_simple.description">
+				<source>Adds a simple route enhancer example</source>
+			</trans-unit>
+			<trans-unit id="plugin_routeenhancer_extbase.name" resname="plugin_routeenhancer_extbase.name">
+                <source>ExtbaseRouteEnhancer</source>
+            </trans-unit>
+            <trans-unit id="plugin_routeenhancer_extbase.description" resname="plugin_routeenhancer_extbase.description">
+                <source>Adds an extbase route enhancer example</source>
+            </trans-unit>
+            <trans-unit id="tx_routeenhancers_domain_model_entry" resname="tx_routeenhancers_domain_model_entry">
+                <source>Entry</source>
+            </trans-unit>
+            <trans-unit id="tx_routeenhancers_domain_model_entry.title" resname="tx_routeenhancers_domain_model_entry.title">
+                <source>Title</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
